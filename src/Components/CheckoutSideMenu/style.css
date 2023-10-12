@@ -1,0 +1,16 @@
+.checkout-side-menu{
+    width: 360px;
+    height: calc(100vh - 75px);
+    top: 68px;
+    margin-right: 3px;
+}
+.checkout-side-menu-close{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    display:none;
+}
+.checkout-side-menu-open{
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    display:flex;
+}

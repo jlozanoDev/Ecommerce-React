@@ -1,0 +1,15 @@
+.product-detail{
+    width: 360px;
+    height: calc(100vh - 75px);
+    top: 68px;
+    margin-right: 3px;
+}
+.product-detail-close{
+    
+    display:none;
+}
+.product-detail-open{
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    display:flex
+}
